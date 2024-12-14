@@ -1,0 +1,113 @@
+Global
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #007bff 40%, #ffffff calc(40% + 1px));
+}
+
+.center {
+ margin: 210px auto;
+ overflow-y: hidden;
+}
+/* Container */
+.login-container {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+H2 {
+    text-align: center;
+}
+
+.label-password {
+    color: #007bff; /* Jingga */
+}
+
+/* Form */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.input-group input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #b3b3b3;
+}
+
+.input-group input:focus {
+    border-bottom: 2px solid #007bff;
+    box-shadow: 0 0 10px rgba(0,128,0,0.2);
+}
+
+.summit {
+    text-align: center;
+}
+
+.submit-btn {
+    position: absolute;
+    top: 627px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button[type="submit"] {
+    width: 220px;
+    height: 40px;
+    background-color:blue;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0000CC;
+}
+
+#error-message, #error-message-create {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* Link */
+a {
+    text-decoration: none;
+    color: #47d147;
+}
+
+a:hover {
+    color: #2eb82e;
+}
+
+/* Teks tambahan */
+.p {
+    text-align: center;
+    margin-top: 20px;
+}

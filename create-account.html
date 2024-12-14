@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buat Akun</title>
+    <link rel="stylesheet" href="create-account.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2 class="H2">CERATE ACCOUNT</h2>
+        <br>
+        <form id="create-account-form">
+            <div class="input-group">
+                <label class="label-password" for="nama">FULL NAME</label>
+                <input type="text" id="nama" placeholder="TYPE YOUR NAME">
+            </div>
+            <div class="input-group">
+                <label class="label-password" for="email">EMAIL</label>
+                <input type="email" id="email" placeholder="example@example.com">
+            </div>
+            <div class="input-group">
+                <label class="label-password" for="username-create">PASSWORD</label>
+                <input type="text" id="username-create" placeholder="**********">
+            </div>
+            <div class="input-group">
+                <label class="label-password" for="password-create">RE-TYPE PASSWORD</label>
+                <input type="password" id="password-create" placeholder="**********">
+            </div>
+        </form>
+    </div>
+    <div class="summit">
+        <button type="submit" class="submit-btn">LOGIN</button>
+            <p id="error-message-create"></p>
+            <p> <a href="login.html">ALREADY HAVE AN ACCONT?</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

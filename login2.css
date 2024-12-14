@@ -1,0 +1,134 @@
+ /* Global Styles */
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #007bff 50%, #ffffff 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Container for the header image */
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.header-img {
+    width: 120px;       /* Fixed width for header image */
+    height: 120px;      /* Fixed height for header image */
+    object-fit: cover;  /* Ensures the image fills the container */
+    object-position: center;  /* Keeps the image centered */
+    border-radius: 50%;   /* Makes the image circular */
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.6); /* White circular shadow */
+}
+
+/* Login Form Styles */
+.login-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.H2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.label-nama, .label-password {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #b3b3b3;
+    font-size: 16px;
+}
+
+.input-group input:focus {
+    border-bottom: 2px solid #007bff;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+}
+
+/* Submit Button Styles */
+.summit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    width: 240px;
+    height: 40px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0000CC;
+}
+
+/* Error Message */
+#error-message, #error-message-create {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: red;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a:hover {
+    color: #cc2900;
+}
+
+/* Additional Text */
+.p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p p {
+    margin: 5px auto;
+}
